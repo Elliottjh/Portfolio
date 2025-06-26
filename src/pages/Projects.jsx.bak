@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { Link } from "react-router-dom"
 import { motion, AnimatePresence } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { Calendar, MapPin, ExternalLink } from 'lucide-react'
@@ -231,9 +230,9 @@ const Projects = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <Link to="/contact" className="btn-primary bg-white text-neutral-900 hover:bg-neutral-100">
+              <a href="/contact" className="btn-primary bg-white text-neutral-900 hover:bg-neutral-100">
                 Start Your Project
-              </Link>
+              </a>
             </motion.div>
           </div>
         </div>
