@@ -18,7 +18,7 @@ const Services = () => {
         'Electrical & Plumbing',
         'Finishing & Trim Work'
       ],
-      image: '/images/residential-service.jpg'
+      image: './images/residential-service.jpg'
     },
     {
       icon: Building,
@@ -31,7 +31,7 @@ const Services = () => {
         'Mixed-Use Projects',
         'Tenant Improvements'
       ],
-      image: '/images/commercial-service.jpg'
+      image: './images/commercial-service.jpg'
     },
     {
       icon: Wrench,
@@ -44,7 +44,7 @@ const Services = () => {
         'Room Additions',
         'Whole House Renovations'
       ],
-      image: '/images/renovation-service.jpg'
+      image: './images/renovation-service.jpg'
     },
     {
       icon: Hammer,
@@ -57,7 +57,7 @@ const Services = () => {
         'Outdoor Structures',
         'Furniture & Fixtures'
       ],
-      image: '/images/carpentry-service.jpg'
+      image: './images/carpentry-service.jpg'
     }
   ]
 

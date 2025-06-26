@@ -31,21 +31,21 @@ const Home = () => {
       id: 1,
       title: 'Modern Family Home',
       category: 'Residential',
-      image: '/images/project-1.jpg',
+      image: './images/project-1.jpg',
       description: 'Complete home construction with contemporary design elements.'
     },
     {
       id: 2,
       title: 'Commercial Office Space',
       category: 'Commercial',
-      image: '/images/project-2.jpg',
+      image: './images/project-2.jpg',
       description: 'Modern office renovation with sustainable materials.'
     },
     {
       id: 3,
       title: 'Kitchen Renovation',
       category: 'Renovation',
-      image: '/images/project-3.jpg',
+      image: './images/project-3.jpg',
       description: 'Complete kitchen transformation with custom cabinetry.'
     }
   ]
@@ -91,7 +91,7 @@ const Home = () => {
             >
               <div className="aspect-[4/3] bg-neutral-200 rounded-2xl overflow-hidden shadow-medium">
                 <img
-                  src="/images/hero-image.jpg"
+                  src="./images/hero-image.jpg"
                   alt="Professional construction work"
                   className="w-full h-full object-cover"
                   loading="eager"

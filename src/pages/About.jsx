@@ -67,7 +67,7 @@ const About = () => {
             >
               <div className="aspect-[4/3] bg-neutral-200 rounded-2xl overflow-hidden shadow-medium">
                 <img
-                  src="/images/about-hero.jpg"
+                  src="./images/about-hero.jpg"
                   alt="Our team at work"
                   className="w-full h-full object-cover"
                 />
@@ -158,7 +158,7 @@ const About = () => {
               >
                 <div className="aspect-[4/3] bg-neutral-200 rounded-2xl overflow-hidden shadow-medium">
                   <img
-                    src="/images/about-story.jpg"
+                    src="./images/about-story.jpg"
                     alt="Construction process"
                     className="w-full h-full object-cover"
                   />

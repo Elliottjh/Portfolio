@@ -16,8 +16,8 @@ const Projects = () => {
       category: 'Residential',
       year: '2023',
       location: 'Suburban District',
-      image: '/images/project-1.jpg',
-      images: ['/images/project-1.jpg', '/images/project-1-2.jpg', '/images/project-1-3.jpg'],
+      image: './images/project-1.jpg',
+      images: ['./images/project-1.jpg', './images/project-1-2.jpg', './images/project-1-3.jpg'],
       description: 'A contemporary family home featuring clean lines, open-plan living, and sustainable materials. This project showcased our expertise in modern residential construction.',
       features: ['4 Bedrooms', '3 Bathrooms', 'Open Kitchen', 'Solar Panels', 'Smart Home System']
     },
@@ -27,8 +27,8 @@ const Projects = () => {
       category: 'Commercial',
       year: '2023',
       location: 'Business District',
-      image: '/images/project-2.jpg',
-      images: ['/images/project-2.jpg', '/images/project-2-2.jpg', '/images/project-2-3.jpg'],
+      image: './images/project-2.jpg',
+      images: ['./images/project-2.jpg', './images/project-2-2.jpg', './images/project-2-3.jpg'],
       description: 'A state-of-the-art office building designed for maximum efficiency and employee comfort. Features include flexible workspaces and green building standards.',
       features: ['10,000 sq ft', 'LEED Certified', 'Modern HVAC', 'Flexible Layouts', 'Parking Garage']
     },
@@ -38,8 +38,8 @@ const Projects = () => {
       category: 'Renovation',
       year: '2022',
       location: 'Historic Quarter',
-      image: '/images/project-3.jpg',
-      images: ['/images/project-3.jpg', '/images/project-3-2.jpg', '/images/project-3-3.jpg'],
+      image: './images/project-3.jpg',
+      images: ['./images/project-3.jpg', './images/project-3-2.jpg', './images/project-3-3.jpg'],
       description: 'Careful restoration of a 1920s home, preserving original character while adding modern amenities. This project required specialized restoration techniques.',
       features: ['Period Restoration', 'Modern Kitchen', 'Updated Electrical', 'Preserved Details', 'New Addition']
     },
@@ -49,8 +49,8 @@ const Projects = () => {
       category: 'Residential',
       year: '2022',
       location: 'Premium District',
-      image: '/images/project-4.jpg',
-      images: ['/images/project-4.jpg', '/images/project-4-2.jpg', '/images/project-4-3.jpg'],
+      image: './images/project-4.jpg',
+      images: ['./images/project-4.jpg', './images/project-4-2.jpg', './images/project-4-3.jpg'],
       description: 'An elegant townhouse combining traditional architecture with contemporary interior design. High-end finishes throughout.',
       features: ['3 Stories', 'Rooftop Terrace', 'Premium Finishes', 'Wine Cellar', 'Home Theater']
     },
@@ -60,8 +60,8 @@ const Projects = () => {
       category: 'Commercial',
       year: '2022',
       location: 'Shopping District',
-      image: '/images/project-5.jpg',
-      images: ['/images/project-5.jpg', '/images/project-5-2.jpg', '/images/project-5-3.jpg'],
+      image: './images/project-5.jpg',
+      images: ['./images/project-5.jpg', './images/project-5-2.jpg', './images/project-5-3.jpg'],
       description: 'Transformation of an old warehouse into modern retail spaces. The project required innovative solutions for lighting and accessibility.',
       features: ['Multiple Tenants', 'Modern Storefronts', 'Accessibility Features', 'Energy Efficient', 'Parking Solutions']
     },
@@ -71,8 +71,8 @@ const Projects = () => {
       category: 'Renovation',
       year: '2021',
       location: 'Residential Area',
-      image: '/images/project-6.jpg',
-      images: ['/images/project-6.jpg', '/images/project-6-2.jpg', '/images/project-6-3.jpg'],
+      image: './images/project-6.jpg',
+      images: ['./images/project-6.jpg', './images/project-6-2.jpg', './images/project-6-3.jpg'],
       description: 'Complete transformation of outdated kitchen and bathrooms into modern, functional spaces with custom cabinetry and premium fixtures.',
       features: ['Custom Cabinets', 'Quartz Countertops', 'Luxury Fixtures', 'Heated Floors', 'Smart Lighting']
     }
